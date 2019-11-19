@@ -1,0 +1,21 @@
+@import 'vendors/include-media';
+
+@import '../fonts/icons-font/scss/nucleo.scss';
+@import '../fonts/icons-font/scss/icons';
+
+@import 'vendors/normalize';
+@import 'base/variables';
+@import 'base/typography';
+@import 'base/helpers';
+@import 'base/mixins';
+@import 'base/forms';
+@import 'base/reset';
+
+
+@import 'layout/common';
+@import 'layout/header';
+@import 'layout/content';
+@import 'layout/footer';
+
+@import '../scss/vendors/slick';
+@import '../scss/vendors/slick-theme';

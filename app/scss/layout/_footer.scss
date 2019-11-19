@@ -1,0 +1,14 @@
+footer{
+  background: $dark-brown;
+  padding: 35px 0;
+  color: $white;
+  .logo{
+    color: inherit;
+    &:hover{
+      color: $pink;
+    }
+  }
+  .copyright{
+    margin: 0;
+  }
+}
