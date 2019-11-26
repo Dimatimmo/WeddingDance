@@ -99,7 +99,7 @@ header{
 		width: 30px;
 		height: 2px;
 		background: $black;
-		transition: all 0.5s;
+		transition: opacity, transform 0.5s;
 		transform-origin: center center;
 	}
 	span{
