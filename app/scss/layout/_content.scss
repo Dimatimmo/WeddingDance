@@ -14,7 +14,7 @@
     @include media("screen", ">=desktop") {
       margin: 0;
       opacity: 0;
-      animation: animationVisiblePart .5s linear .5s;
+      animation: animationVisiblePart .5s linear 1s;
       animation-fill-mode: forwards;
     }
   }
@@ -35,17 +35,19 @@
     font-size: 24px;
     line-height: 1.21;
     opacity: 0;
-    animation: animationVisiblePart .5s linear .5s;
+    animation: animationVisiblePart .5s linear 1s;
     animation-fill-mode: forwards;
   }
   h1{
     line-height: 1;
-    animation: animationVisiblePart .5s linear;
+    opacity: 0;
+    animation: animationVisiblePart .5s linear .5s;
+    animation-fill-mode: forwards;
   }
   .info__text{
     margin-bottom: 24px;
     opacity: 0;
-    animation: animationVisiblePart .5s linear .5s;
+    animation: animationVisiblePart .5s linear 1s;
     animation-fill-mode: forwards;
     @include media("screen", ">=desktop") {
       margin-bottom: 45px;
@@ -56,7 +58,7 @@
     border-color: $pink;
     color: $pink;
     opacity: 0;
-    animation: animationVisiblePart .5s linear 1s;
+    animation: animationVisiblePart .5s linear 1.5s;
     animation-fill-mode: forwards;
     &:hover{
       color: $black;
