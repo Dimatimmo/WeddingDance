@@ -25,3 +25,5 @@ function initSlick(){
     ]
   });
 }
+
+new WOW().init();
