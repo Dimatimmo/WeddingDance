@@ -19,7 +19,7 @@ function initSlick(){
     variableWidth: true,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1024,
         settings: 'unslick'
       }
     ]
