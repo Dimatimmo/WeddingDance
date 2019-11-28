@@ -22,8 +22,7 @@ function initSlick(){
         breakpoint: 1300,
         settings: {
           dots: true,
-          slidesToShow: 1,
-          variableWidth: true
+          slidesToShow: 2,
         } 
       },
       {
