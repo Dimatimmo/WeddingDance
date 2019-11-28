@@ -7,10 +7,10 @@
     align-items: flex-start;
   }
   .img-holder{
-    margin-bottom: 32px;
     opacity: 0;
     animation: animationVisiblePart .5s linear;
     animation-fill-mode: forwards;
+    margin: 0 -14px 32px;
     @include media("screen", ">=desktop") {
       margin: 0;
       opacity: 0;
@@ -83,7 +83,7 @@
   @include media("screen", ">=desktop") {
     margin-bottom: 48px;
     font-size: 16px;
-    margin-bottom: 12px;
+    margin-bottom: 30px;
   }
 }
 
@@ -95,10 +95,10 @@
   display: flex;
   width: 75vw;
   margin-right: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.04);
   @include media("screen", ">=desktop") {
     width: auto;
-    padding: 0 10px;
-    margin: 0;
+    margin: 0 10px;
   }
   .card__content{
     padding: 0 0 30px 0;
@@ -156,6 +156,7 @@
   width: 50%;
   padding: 0 10px;
   margin-bottom: 30px;
+  min-height: 120px;
   @include media("screen", ">=tablet") {
     width: 200px;
     margin-bottom: 40px;
@@ -164,7 +165,7 @@
   }
   @include media("screen", ">=desktop") {
     width: 25%;
-    margin-bottom: 85px;
+    margin-bottom: 35px;
   }
   .icon{
     font-size: 40px;
@@ -173,6 +174,9 @@
     @include media("screen", ">=desktop") {
       font-size: 70px;
     }
+  }
+  p{
+    margin-bottom: 5px;
   }
 }
 
