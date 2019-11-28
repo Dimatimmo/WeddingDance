@@ -12,15 +12,27 @@ function initToggleClass() {
 
 function initSlick(){
   $('.cards__holder').slick({
-    mobileFirst: true,
     infinite: false,
-    dots: true,
+    dots: false,
     arrows: false,
-    variableWidth: true,
+    slidesToShow: 3,
+    variableWidth: false,
     responsive: [
       {
-        breakpoint: 1024,
-        settings: 'unslick'
+        breakpoint: 1300,
+        settings: {
+          dots: true,
+          slidesToShow: 1,
+          variableWidth: true
+        } 
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          dots: true,
+          slidesToShow: 1,
+          variableWidth: true
+        }  
       }
     ]
   });

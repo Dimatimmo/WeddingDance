@@ -68,8 +68,11 @@
 
 .cards__holder{
   display: flex;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
   justify-content: space-between;
+  @include media("screen", ">=desktop") {
+    margin: 0 -10px;
+  }
 }
 
 .title__holder{
@@ -94,6 +97,7 @@
   margin-right: 20px;
   @include media("screen", ">=desktop") {
     width: auto;
+    padding: 0 10px;
     margin: 0;
   }
   .card__content{
